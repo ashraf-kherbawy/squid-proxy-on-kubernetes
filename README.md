@@ -53,7 +53,7 @@ The above configuration specifies the following:
     - http_access allow domain_dst: Allow 'domain_dst' which is the destination IP, to be reached through Squid.
     - http_access deny all: Deny all other destinations.
 
-Note: Squid's dst is only made to work with IP addresses. If you need to route to a domain, use dstdomain instead.
+**NOTE**: Squid's dst is only made to work with IP addresses. If you need to route to a domain, use dstdomain instead. I recommend checking Squid's [Access Control List's doc](https://wiki.squid-cache.org/SquidFaq/SquidAcl#access-controls-in-squid) for more information
 
 ### Squid Deployment 
 
